@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cliente</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="divw">
+      <form action="" id="formulario" method="POST">
+            
+                <legend>Cliente</legend>
+
+                <div class="input-group">
+                        <label for="Nome">Nome:</label>
+                        <input type="text" id="name" placeholder="Insira seu nome" />
+                </div>		
+    
+                <div class="input-group">
+                        <label>Data de nascimento</label>
+                        <input type="date" id="data"/>
+                </div>
+    
+                <div class="input-group">
+                        <label for="profissao">Profissão</label>
+                        <input type="text" id="profissao" placeholder="Insira sua profissão" />
+                </div>
+    
+                <div class="input-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" placeholder="Insira seu Telefone"/>
+                </div>
+                <br><br>
+                <div class="footer">
+                        <button type="button" class="botao" onclick="validar()">Enviar</button>
+                </div>
+        </form>
+        </div>
+        <script src="script.js"></script>
+  </body>
+  
+</html>
